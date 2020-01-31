@@ -10,7 +10,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "report": "vue-cli-service build --report",
-    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/i18n/locales/**/*.?(json|yaml|yml)'",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -44,6 +44,7 @@
     "sass-loader": "^8.0.2",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-i18n": "^0.6.1",
     "vue-cli-plugin-vuetify": "^2.0.3",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.4.3",

@@ -1,6 +1,4 @@
-// 注释：Version 2.0.0-RC7
-// 注释：https://github.com/chrishamm/DuetWebControl/tree/2.0.0-RC7/src/i18n
-export default {
+{
 	language: '简体中文',
 	'$vuetify': {
 		close: '关闭',

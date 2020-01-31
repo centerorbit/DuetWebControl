@@ -1,4 +1,4 @@
-export default {
+{
 	language: 'French',
 	'$vuetify': {
 		close: 'Fermer',
@@ -55,13 +55,13 @@ export default {
 			disconnecting: 'Déconnexion...'
 		},
 		emergencyStop: {
-			caption: 'Arrêt D\'Urgence',
+			caption: "Arrêt D'Urgence",
 			title: 'Forcer un redémarrage logiciel immédiat (M112+M999)'
 		},
 		home: {
 			caption: 'Origine {0}',
 			captionAll: 'Tout aux Origines',
-			title: 'Déplace l\'axe {0} à son origine (G28 {0})',
+			title: "Déplace l'axe {0} à son origine (G28 {0})",
 			titleAll: 'Déplace tout les axes aux origines (G28)'
 		},
 		newDirectory: {
@@ -134,7 +134,7 @@ export default {
 	dialog: {
 		changeMoveStep: {
 			title: 'Modifier distance de mouvement',
-			prompt: 'Merci d\'entrer une nouvelle valeur pour le bouton de mouvement cliqué:'
+			prompt: "Merci d'entrer une nouvelle valeur pour le bouton de mouvement cliqué:"
 		},
 		configUpdated: {
 			title: 'Redémarrer la Carte?',
@@ -142,9 +142,9 @@ export default {
 		},
 		connect: {
 			title: 'Connecter à la Machine',
-			prompt: 'Merci d\'entrer le nom d\'hôte et le mot de passe de la machine à laquelle vous voulez vouz connecter:',
-			hostPlaceholder: 'Nom d\'Hôte',
-			hostRequired: 'Nom d\'Hôte requis',
+			prompt: "Merci d'entrer le nom d'hôte et le mot de passe de la machine à laquelle vous voulez vouz connecter:",
+			hostPlaceholder: "Nom d'Hôte",
+			hostRequired: "Nom d'Hôte requis",
 			passwordPlaceholderOptional: 'Mot de Passe (optionnel)',
 			passwordPlaceholder: 'Mot de Passe',
 			passwordRequired: 'Mot de Passe requis',
@@ -153,21 +153,21 @@ export default {
 		connection: {
 			connecting: 'Connexion...',
 			disconnecting: 'Déconnexion...',
-			updating: 'Veuillez patienter pendant l\'installation des mises à jour....',
+			updating: "Veuillez patienter pendant l'installation des mises à jour...",
 			reconnecting: 'Connexion perdue, tentative de reconnexion...',
 			standBy: 'Merci de patienter...'
 		},
 		editExtrusionAmount: {
-			title: 'Modifier quantiter d\'extrusion',
-			prompt: 'Merci d\'enter une nouvelle quantité pour le bouton cliqué:'
+			title: "Modifier quantiter d'extrusion",
+			prompt: "Merci d'enter une nouvelle quantité pour le bouton cliqué:"
 		},
 		editExtrusionFeedrate: {
-			title: 'Modifier vitesse d\'extrusion',
-			prompt: 'Merci d\'entrer une nouvelle vitesse pour le bouton cliqué:'
+			title: "Modifier vitesse d'extrusion",
+			prompt: "Merci d'entrer une nouvelle vitesse pour le bouton cliqué:"
 		},
 		factoryReset: {
-			title: 'Effectuer une réinitialissation d\'usine?',
-			prompt: 'Etes-vous sûr de vouloir éffectuer une réinitialisation d\'usine ? Tout les paramètres sauvegardés seront perdus.'
+			title: "Effectuer une réinitialissation d'usine?",
+			prompt: "Etes-vous sûr de vouloir éffectuer une réinitialisation d'usine ? Tout les paramètres sauvegardés seront perdus."
 		},
 		filament: {
 			titleChange: 'Changer Filament',
@@ -190,23 +190,23 @@ export default {
 		},
 		newDirectory: {
 			title: 'Nouveau Dossier',
-			prompt: 'Merci d\'entrer un nom de nouveau dossier:'
+			prompt: "Merci d'entrer un nom de nouveau dossier:"
 		},
 		newFilament: {
 			title: 'Nouveau Filament',
-			prompt: 'Merci d\'entrer un nom pour le nouveau filament:'
+			prompt: "Merci d'entrer un nom pour le nouveau filament:"
 		},
 		newFile: {
 			title: 'Nouveau Fichier',
-			prompt: 'Merci d\'entrer un nom de nouveau fichier:'
+			prompt: "Merci d'entrer un nom de nouveau fichier:"
 		},
 		renameFile: {
 			title: 'Renommer un Fichier ou Dossier',
-			prompt: 'Merci d\'entrer un nouveau nom:'
+			prompt: "Merci d'entrer un nouveau nom:"
 		},
 		resetHeaterFault: {
 			title: 'Réinitialiser Défaut de Chauffage',
-			prompt: 'Un défaut de chauffage s\'est produit sur le chauffage {0}. Il est fortement recommandé d\'éteindre la machine maintenant et vérifier votre câblage avant de continuer. Si vous êtes absolument sûr qu\'il n\'y a pas de problème physique, vous pouvez réinitialiser le défaut A VOS RISQUES ET PERILS. Soyez conscient que ce n\'est PAS RECOMMANDÉ et peut provoqué plus de problèmes. Comment voulez-vous proceder?',
+			prompt: "Un défaut de chauffage s'est produit sur le chauffage {0}. Il est fortement recommandé d'éteindre la machine maintenant et vérifier votre câblage avant de continuer. Si vous êtes absolument sûr qu'il n'y a pas de problème physique, vous pouvez réinitialiser le défaut A VOS RISQUES ET PERILS. Soyez conscient que ce n'est PAS RECOMMANDÉ et peut provoqué plus de problèmes. Comment voulez-vous proceder?",
 			resetFault: 'Réinitialiser Défaut'
 		},
 		runMacro: {
@@ -221,8 +221,8 @@ export default {
 			title: 'Installer Mise à Jour?',
 			prompt: 'Vous avez envoyer au moins une mise à jour logiciel. Voulez-vous les installer maintenant?'
 		},
-		inputRequired: 'Merci d\'entrer une nouvelle valeur',
-		numberRequired: 'Merci d\'entrer un nombre valide'
+		inputRequired: "Merci d'entrer une nouvelle valeur",
+		numberRequired: "Merci d'entrer un nombre valide"
 	},
 	directory: {
 		display: 'Répertoire Menu',
@@ -233,12 +233,12 @@ export default {
 		www: 'Répertoire WWW'
 	},
 	error: {
-		notImplemented: '{0} n\'est pas implémenté',
+		notImplemented: "{0} n'est pas implémenté",
 		invalidPassword: 'Mauvais mot de passe!',
 		noFreeSession: 'Plus de sessions libre!',
 		connect: 'Échec de la connexion à {0}',
 		disconnect: 'Impossible de se déconnecter correctement de {0}',
-		disconnected: 'Impossible de compléter l\'action car la connexion s\'est terminée',
+		disconnected: "Impossible de compléter l'action car la connexion s'est terminée",
 		cancelled: 'Opération annulée',
 		network: 'Erreur réseau',
 		timeout: 'Réquête HTTP expirée',
@@ -246,24 +246,24 @@ export default {
 		directoryNotFound: 'Répertoire {0} introuvable',
 		fileNotFound: 'Fichier {0} introuvable',
 		invalidHeightmap: 'Carte de Hauteur Invalide',
-		operationFailed: 'Échec de l\'opération (Raison: {0})',
+		operationFailed: "Échec de l'opération (Raison: {0})",
 		uploadStartWrongFileCount: 'Seulement un fichier peut être envoyer & démarrer',
 		uploadNoSingleZIP: 'Seulement un fichier ZIP peut être envoyé à la fois',
 		uploadNoFiles: 'Ce ZIP ne contient aucun fichier utilisable',
 		uploadDecompressionFailed: 'Échec de la décompression du fichier ZIP',
-		codeResponse: 'Impossible d\'exécuter le code car une mauvaise réponse a été reçue',
-		codeBuffer: 'Impossible d\'exécuter du code car l\'espace tampon est épuisé',
-		enterValidNumber: 'Merci d\'entrer un nombre valide',
+		codeResponse: "Impossible d'exécuter le code car une mauvaise réponse a été reçue",
+		codeBuffer: "Impossible d'exécuter du code car l'espace tampon est épuisé",
+		enterValidNumber: "Merci d'entrer un nombre valide",
 		turnOffEverythingFailed: 'Impossible de tout éteindre',
-		filelistRequestFailed: 'Impossible d\'obtenir la liste des fichiers',
-		fileinfoRequestFailed: 'Impossible d\'obtenir les informations du fichier pour {0}',
+		filelistRequestFailed: "Impossible d'obtenir la liste des fichiers",
+		fileinfoRequestFailed: "Impossible d'obtenir les informations du fichier pour {0}",
 		filamentsLoadFailed: 'Impossible de charger le filament',
 		move: 'Impossible de déplacer {0} à {1}'
 	},
 	events: {
 		connected: 'Connecté à {0}',
-		connectionLost: 'N\'a pas réussi à maintenir la connexion à {0}',
-		emergencyStop: 'Arrêt d\'urgence, tentative de rebranchement...',
+		connectionLost: "N'a pas réussi à maintenir la connexion à {0}",
+		emergencyStop: "Arrêt d'urgence, tentative de rebranchement...",
 		reconnecting: 'Connexion interrompue, tentative de reconnexion...',
 		reconnected: 'Connexion établie',
 		disconnected: 'Déconnecté de {0}'
@@ -300,7 +300,7 @@ export default {
 			processing: 'Traitement',
 			simulating: 'Simulation',
 			busy: 'Occupé',
-			changingTool: 'Changement d\'Outil',
+			changingTool: "Changement d'Outil",
 			idle: 'Au repos',
 			unknown: 'Inconnu'
 		},
@@ -344,11 +344,11 @@ export default {
 			delete: 'Supprimer',
 			downloadZIP: 'Télécharger en ZIP',
 			noFiles: 'Aucun Fichiers ou Répertoires',
-			driveUnmounted: 'Le variateur n\'est pas monté',
+			driveUnmounted: "Le variateur n'est pas monté",
 			goUp: 'Remonter'
 		},
 		display: {
-			noFiles: 'Aucun Fichier d\'Affichage'
+			noFiles: "Aucun Fichier d'Affichage"
 		},
 		eventLog: {
 			date: 'Date',
@@ -372,7 +372,7 @@ export default {
 			height: 'Hauteur Objet',
 			layerHeight: 'Hauteur de Couche',
 			filament: 'Utilisation de Filament',
-			printTime: 'Temps d\'Impression',
+			printTime: "Temps d'Impression",
 			simulatedTime: 'Temps Simulé',
 			generatedBy: 'Généré par',
 
@@ -382,7 +382,7 @@ export default {
 		},
 		system: {
 			noFiles: 'Aucun Fichiers Système',
-			configToolNote: 'éditer via l\'outil de configuration'
+			configToolNote: "éditer via l'outil de configuration"
 		}
 	},
 	menu: {
@@ -440,7 +440,7 @@ export default {
 		},
 		loadingFile: {
 			title: 'Chargement du fichier',
-			message: 'Ce fichier est relativement gros alors cela peut prendre du temps avant qu\'il s\'affiche.'
+			message: "Ce fichier est relativement gros alors cela peut prendre du temps avant qu'il s'affiche."
 		},
 		message: 'Message',
 		mount: {
@@ -472,12 +472,12 @@ export default {
 			message: 'Veuillez patienter pendant que le fichier est envoyé...',
 			success: 'Envoi de {0} réussi après {1}',
 			successMulti: 'Envoi de {0} fichiers réusssi',
-			error: 'Échec de l\'envoi de {0}'
+			error: "Échec de l'envoi de {0}"
 		}
 	},
 	panel: {
 		atx: {
-			caption: 'Contrôle de l\'alim',
+			caption: "Contrôle de l'alim",
 			on: 'On',
 			off: 'Off'
 		},
@@ -486,7 +486,7 @@ export default {
 			current: 'Décalage Actuel: {0}'
 		},
 		extrude: {
-			caption: 'Contrôle de l\'Extrusion',
+			caption: "Contrôle de l'Extrusion",
 			mix: 'Mix',
 			mixRatio: 'Mix Ratio:',
 			amount: 'Avance en {0}:',
@@ -495,7 +495,7 @@ export default {
 			extrude: 'Extruder'
 		},
 		extrusionFactors: {
-			caption: 'Facteurs d\'Extrusion',
+			caption: "Facteurs d'Extrusion",
 			changeVisibility: 'Changer Visibilité',
 			extruder: 'Extruder {0}',
 			noExtruders: 'Aucun Extruders'
@@ -580,8 +580,8 @@ export default {
 			editMesh: 'Définir Zone pour la Mesh Compensation (M557)',
 			runMesh: 'Lancer Mesh Compensation (G29)',
 			loadMesh: 'Charger la Carte de Hauteur Sauvegardée (G29 S1)',
-			axesNotHomed: 'L\'axe suivant  n\'a pas été à son origine:|Les axes suivants n\'ont pas été à leur origine:',
-			noAxes: 'Pas d\'axes'
+			axesNotHomed: "L'axe suivant  n'a pas été à son origine:|Les axes suivants n'ont pas été à leur origine:",
+			noAxes: "Pas d'axes"
 		},
 		settingsAbout: {
 			caption: 'À propos',
@@ -604,7 +604,7 @@ export default {
 			ajaxRetries: 'Nombre maximal de tentatives AJAX',
 			updateInterval: 'Intervalle de mise à jour ({0})',
 			extendedUpdateEvery: 'Intervalle de mise à jour du statut étendu',
-			fileTransferRetryThreshold: 'Limite d\'essais pour le transfert de fichiers ({0})',
+			fileTransferRetryThreshold: "Limite d'essais pour le transfert de fichiers ({0})",
 			crcUploads: 'Utiliser les sommes de contrôle CRC32 pour les téléchargements',
 			unavailable: 'Aucun réglage disponible.',
 		},
@@ -623,7 +623,7 @@ export default {
 		},
 		settingsGeneral: {
 			caption: 'Général',
-			factoryReset: 'Revenir aux paramètres d\'usine',
+			factoryReset: "Revenir aux paramètres d'usine",
 			settingsStorageLocal: 'Sauvegarder les paramètres dans le stockage local',
 			settingsSaveDelay: 'Délai de mise à jour pour les modifications de paramètres ({0})',
 			cacheStorageLocal: 'Sauvegarder le cache dans le stockage local',
@@ -631,7 +631,7 @@ export default {
 		},
 		settingsListItems: {
 			caption: 'Liste des Éléments',
-			toolTemperatures: 'Températures de l\'Outil',
+			toolTemperatures: "Températures de l'Outil",
 			bedTemperatures: 'Températures du Lit',
 			chamberTemperatures: 'Températures de la Chambre',
 			spindleRPM: 'TPM du Spindle'
@@ -644,17 +644,17 @@ export default {
 		},
 		settingsNotifications: {
 			caption: 'Notifications',
-			notificationErrorsPersistent: 'Ne pas fermer les messages d\'erreur automatiquement',
-			notificationTimeout: 'Délais d\'affichage des notifications par défaut ({0})'
+			notificationErrorsPersistent: "Ne pas fermer les messages d'erreur automatiquement",
+			notificationTimeout: "Délais d'affichage des notifications par défaut ({0}"
 		},
 		settingsWebcam: {
 			caption: 'Webcam',
 			webcamURL: 'Webcam URL (optionnel)',
 			webcamUpdateInterval: '>Intervale de màj de la Webcam ({0})',
-			webcamFix: 'Ne pas ajouter de qualificatif HTTP supplémentaire lors du rechargement d\'images',
-			webcamEmbedded: 'Incorporer l\'image de la webcam dans un iframe',
-			webcamRotation: 'Pivoter l\'image de la webcam',
-			webcamFlip: 'Retourner l\'image de la webcam',
+			webcamFix: "Ne pas ajouter de qualificatif HTTP supplémentaire lors du rechargement d'images",
+			webcamEmbedded: "Incorporer l'image de la webcam dans un iframe",
+			webcamRotation: "Pivoter l'image de la webcam",
+			webcamFlip: "Retourner l'image de la webcam",
 			flipNone: 'Aucun',
 			flipX: 'Retourner X',
 			flipY: 'Retourner Y',
@@ -705,7 +705,7 @@ export default {
 				showInChart: 'Afficher dans le Graphique',
 				noItems: 'Pas de Chauffage supplémentaire'
 			},
-			noTools: 'Pas d\'Outils'
+			noTools: "Pas d'Outils"
 		},
 		webcam: {
 			caption: 'Surveillance Webcam',

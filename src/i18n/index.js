@@ -3,14 +3,20 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 
-import en from './en.js'
-import de from './de.js'
-import es from './es.js'
-import fr from './fr.js'
-import ru from './ru.js'
-import zh_cn from './zh_cn.js'
-
 Vue.use(VueI18n)
+
+function loadLocaleMessages () {
+  const locales = require.context('@/i18n/locales', true, /[A-Za-z0-9-_,\s]+\.yaml$/i);
+  const messages = {};
+  locales.keys().forEach(key => {
+    const matched = key.match(/([A-Za-z0-9-_]+)\./i);
+    if (matched && matched.length > 1) {
+      const locale = matched[1];
+      messages[locale] = locales(key);
+    }
+  });
+  return messages;
+}
 
 /* eslint-disable */
 if (process.env.NODE_ENV !== 'production') {
@@ -46,12 +52,5 @@ if (process.env.NODE_ENV !== 'production') {
 
 export default new VueI18n({
 	locale: 'en',
-	messages: {
-		en,
-		de,
-		es,
-		fr,
-		ru,
-		zh_cn
-	}
+	messages: loadLocaleMessages(),
 })
